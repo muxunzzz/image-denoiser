@@ -11,7 +11,24 @@ This project demonstrates the application of machine learning techniques for ima
 
 ## Table of Contents
 
-
+- [Overview](#overview)
+- [Features](#features)
+- [Algorithms Implemented](#algorithms-implemented)
+  - [1. RBF Regression with K-Means Clustering](#1-rbf-regression-with-k-means-clustering)
+  - [2. KNN Weighted Average Regression](#2-knn-weighted-average-regression)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Basic Usage Example](#basic-usage-example)
+- [Project Structure](#project-structure)
+- [How It Works](#how-it-works)
+  - [RBF Regression Method](#rbf-regression-method)
+  - [KNN Weighted Average Method](#knn-weighted-average-method)
+- [Parameters](#parameters)
+  - [RBF Method (`denoiser1`)](#rbf-method-denoiser1)
+  - [KNN Method (`denoiser2`)](#knn-method-denoiser2)
+- [Results](#results)
+- [Technical Details](#technical-details)
 
 ## Features
 
@@ -130,7 +147,7 @@ image-denoiser/
 
 ## Results
 
-The notebook demonstrates denoising on three different images with 40% total noise (20% salt + 20% pepper). Both methods effectively restore the original images while preserving important features and textures.
+The notebook demonstrates denoising on three different images with 40% total noise (20% salt + 20% pepper). Both methods effectively restore the original images while preserving important features and and textures.
 
 ## Technical Details
 
