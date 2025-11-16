@@ -9,6 +9,10 @@ This project demonstrates the application of machine learning techniques for ima
 1. **RBF Regression with K-Means Clustering**: Uses spatial features to cluster clean pixels and reconstructs corrupted regions using radial basis functions.
 2. **KNN Weighted Average Regression**: Employs k-nearest neighbors with spatial and color weighting to interpolate missing pixel values.
 
+## Table of Contents
+
+
+
 ## Features
 
 - **Salt-and-Pepper Noise Generation**: Add controllable noise to clean images
@@ -134,15 +138,3 @@ The notebook demonstrates denoising on three different images with 40% total noi
 - **Coordinate System**: 2D spatial coordinates (row, column)
 - **Noise Model**: Binary salt (white pixels) and pepper (black pixels)
 - **RBF Function**: Gaussian RBF with exponential decay
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## Author
-
-Created by [muxunzzz](https://github.com/muxunzzz)
-
-## Acknowledgments
-
-This project demonstrates the practical application of machine learning techniques in computer vision, specifically for noise reduction in digital images.
